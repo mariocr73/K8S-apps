@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app-container
-        image: mariocr73/py-webapp:v1
+        image: <nombre_de_usuario_en_docker_hub>/<nombre_del_repositorio>:<tag>
         ports:
         - containerPort: 5000
       imagePullSecrets:
