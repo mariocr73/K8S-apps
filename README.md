@@ -57,7 +57,7 @@ Once the resources are deployed, you can access the application by finding the e
 ```bash
 kubectl get svc webapp-service
  ```
-Then, open a web browser and navigate to http://<EXTERNAL_IP>:<NodePort>.
+Then, open a web browser and navigate to http://<EXTERNAL_IP>:30001.
 
 ### Step 5:
 To clean up the resources created in this lab, run the following command:
